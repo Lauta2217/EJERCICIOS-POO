@@ -25,15 +25,3 @@ if __name__ == '__main__':
     else: print("Numero ingresado no corresponde\n")
     op = int(input("Ingrese opcion:\n 1_Cargar equipos\n 2_Cargar fechas\n 3_Obtener listado de un equipo\n 4_Actualizar datos y mostrarlos\n 5_Ordenar equipos y cargarlos\n 6_Cargar equipos ordenados \n 0_Para finalizar\n"))
   
-
-
-  """
-  if self.__puntos == other.__puntos:
-      if self.__dif_de_goles == other.__dif_de_goles:
-        if self.__goles_a_favor > other.__goles_a_favor:
-          return self.__goles_a_favor > other.__goles_a_favor
-      else: 
-        return self.__dif_de_goles > other.__dif_de_goles
-    else:
-      return self.__puntos > other.__puntos
-  """
