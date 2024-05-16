@@ -15,7 +15,7 @@ class gestor_material:
         
   def crearobjeto(self,idd):
     i = 0
-    print(f"nombre:{idd}")
+    print(f"id:{idd}")
     band = False
     while i < len(self.__lista) and not band:
       if self.__lista[i].idd == idd:
