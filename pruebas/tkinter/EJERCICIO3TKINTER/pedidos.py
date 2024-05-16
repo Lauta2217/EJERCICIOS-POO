@@ -1,5 +1,6 @@
 import csv
 from tkinter import *
+from tkinter import messagebox
 class Pedido():
   def __init__(self,patente,identificador,comida,tiempo_Estimado,tiempo_Real,precio):
     self.__patente = str(patente)
@@ -66,7 +67,7 @@ class gestor():
       for fila in reader:
         pedido = Pedido(*fila)
         self.__lista_P.append(pedido)
-    Label(self.__frame,text="pedidos cargados correctamente").pack()
+      messagebox.showinfo(title= "CARGA DE PEDIDOS",message="Pedidos cargados correctamente")
     
   def cargar_motos_desde_csv(self):
     with open("pruebas/tkinter/EJERCICIO3TKINTER/datosMotos.csv", newline='') as archivo_csv:
@@ -74,7 +75,7 @@ class gestor():
       for fila in reader:
         moto = Moto(*fila)
         self.__lista_M.append(moto)
-    Label(self.__frame,text="Motos cargados correctamente").pack()
+    messagebox.showinfo(title= "CARGA DE MOTOS",message="Motos cargadas correctamente")
     
   def mostrar_P(self):
     for pedido in self.__lista_P:
@@ -118,7 +119,7 @@ class gestor():
       if band:
         pedido = Pedido(patente,identificador,comida,tiempo_Estimado,tiempo_Real,precio)
         self.__lista_P.append(pedido)
-        Label(self.__frame,text="SE AGREGOO").pack()
+        messagebox.showinfo(title= "CARGA DE PEDIDOS INDIVIDUALMENTE",message="Pedido cargado correctamente")
       else:
         Label(self.__frame,text="No está la patente").pack()
         
@@ -148,9 +149,10 @@ class gestor():
           j+=1
       if band:
         self.__lista_P[j].settiempo_Real(tiempo)
+        messagebox.showinfo(title= "CARGA DE PEDIDOS",message=f"Se cambio el tiempo a {self.__lista_P[j].tiempo_Real}")
         Label(self.__frame,text=f"Se cambio el tiempo a {self.__lista_P[j].tiempo_Real}").pack()
       else:
-        Label(self.__frame,text="No se encontró el pedido").pack()
+        messagebox.showwarning(title= "PEDIDO NO ENCONTRADO",message="El pedido ingresado no se encuentra en la base de datos")
     boton = Button(self.__frame,text="Toca para cambiar tiempo real",command=agregar_tiempo_real)
     boton.pack()
   
@@ -191,6 +193,6 @@ class gestor():
     boton.pack()
   def ordenar(self):
       self.__lista_P = sorted(self.__lista_P)
-      Label(self.__frame,text="Lista de pedidos ordenados:").pack()
+      messagebox.showinfo(title= "PEDIDOS ORDENADOS",message="Se ordenaron los pedidos en la lista")
       for pedido in self.__lista_P:
         Label(self.__frame,text=f"{pedido}\n").pack()
