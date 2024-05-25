@@ -1,0 +1,50 @@
+{
+    "calefactores": [
+        {
+            "tipo": "electrico",
+            "marca": "Philips",
+            "modelo": "PH1000",
+            "pais_de_fabricacion": "Argentina",
+            "precio_de_lista": 8000,
+            "forma_de_pago": "contado",
+            "cant_cuotas": 1,
+            "promocion": true,
+            "potencia_max": 1500
+        },
+        {
+            "tipo": "gas",
+            "marca": "LG",
+            "modelo": "LG2000",
+            "pais_de_fabricacion": "Brasil",
+            "precio_de_lista": 12000,
+            "forma_de_pago": "cuotas",
+            "cant_cuotas": 12,
+            "promocion": false,
+            "matricula": "GN01-00001-06-057",
+            "calorias": 4000
+        },
+        {
+            "tipo": "electrico",
+            "marca": "Samsung",
+            "modelo": "SAM3000",
+            "pais_de_fabricacion": "Chile",
+            "precio_de_lista": 9000,
+            "forma_de_pago": "contado",
+            "cant_cuotas": 1,
+            "promocion": true,
+            "potencia_max": 2000
+        },
+        {
+            "tipo": "gas",
+            "marca": "Whirlpool",
+            "modelo": "WP4000",
+            "pais_de_fabricacion": "Mexico",
+            "precio_de_lista": 15000,
+            "forma_de_pago": "cuotas",
+            "cant_cuotas": 12,
+            "promocion": false,
+            "matricula": "GN01-00001-06-058",
+            "calorias": 4500
+        }
+    ]
+}
