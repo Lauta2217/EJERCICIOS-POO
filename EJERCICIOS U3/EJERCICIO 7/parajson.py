@@ -77,3 +77,4 @@ class Jsoon:
 
         with open("UNIDAD 3/EJERCICIOS U3/EJERCICIO 7/personalv2.json", 'w') as file:
             json.dump({'personal': agentes}, file, indent=4)
+        print("CARGADOS\n")
