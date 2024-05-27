@@ -1,0 +1,100 @@
+{
+    "personal": [
+        {
+            "tipo": "personal_apoyo",
+            "cuil": "20467255194",
+            "apellido": "gonzalez",
+            "nombre": "ana",
+            "sueldo_basico": 30000,
+            "antiguedad": 5,
+            "categoria": "administrativo"
+        },
+        {
+            "tipo": "docente",
+            "cuil": "20435194",
+            "apellido": "perez",
+            "nombre": "juan",
+            "sueldo_basico": 50000,
+            "antiguedad": 10,
+            "carrera": "licenciatura en ciencias de la computacion",
+            "cargo": "profesor asociado",
+            "catedra": "algoritmos y estructuras de datos"
+        },
+        {
+            "tipo": "docente",
+            "cuil": "2043294",
+            "apellido": "lopez",
+            "nombre": "maria",
+            "sueldo_basico": 45000,
+            "antiguedad": 8,
+            "carrera": "licenciatura en ciencias de la computacion",
+            "cargo": "profesor asistente",
+            "catedra": "bases de datos"
+        },
+        {
+            "tipo": "investigador",
+            "cuil": "254234",
+            "apellido": "fernandez",
+            "nombre": "carlos",
+            "sueldo_basico": 60000,
+            "antiguedad": 6,
+            "area_investigacion": "inteligencia artificial",
+            "tipo_investigacion": "aplicada"
+        },
+        {
+            "tipo": "investigador",
+            "cuil": "254231313",
+            "apellido": "martinez",
+            "nombre": "sofia",
+            "sueldo_basico": 62000,
+            "antiguedad": 7,
+            "area_investigacion": "redes de computadoras",
+            "tipo_investigacion": "teorica"
+        },
+        {
+            "tipo": "docente_investigador",
+            "cuil": "20-12345678-9",
+            "apellido": "ramirez",
+            "nombre": "luis",
+            "sueldo_basico": 75000,
+            "antiguedad": 12,
+            "carrera": "ingenieria en sistemas",
+            "cargo": "profesor titular",
+            "catedra": "matematicas discretas",
+            "area_investigacion": "optimizacion",
+            "tipo_investigacion": "aplicada",
+            "categoria_incentivo": "I",
+            "importe_extra": 2000
+        },
+        {
+            "tipo": "docente_investigador",
+            "cuil": "20-12334248-9",
+            "apellido": "rodriguez",
+            "nombre": "laura",
+            "sueldo_basico": 70000,
+            "antiguedad": 10,
+            "carrera": "ingenieria en sistemas",
+            "cargo": "profesor adjunto",
+            "catedra": "programacion avanzada",
+            "area_investigacion": "seguridad informatica",
+            "tipo_investigacion": "aplicada",
+            "categoria_incentivo": "II",
+            "importe_extra": 1800
+        },
+        {
+            "tipo": "docente_investigador",
+            "cuil": "20-18-9",
+            "apellido": "diaz",
+            "nombre": "miguel",
+            "sueldo_basico": 68000,
+            "antiguedad": 9,
+            "carrera": "ingenieria en sistemas",
+            "cargo": "profesor asociado",
+            "catedra": "redes de computadoras",
+            "area_investigacion": "computacion cuantica",
+            "tipo_investigacion": "teorica",
+            "categoria_incentivo": "II",
+            "importe_extra": 1700
+        }
+    ]
+}
